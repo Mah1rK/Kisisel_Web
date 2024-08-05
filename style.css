@@ -1,0 +1,169 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.container {
+  padding-left: 300px;
+}
+
+.menu {
+  background-color: rgb(173, 216, 230);
+  position: absolute;
+  width: 17rem;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 17rem;   
+}
+
+img {
+  border-radius: 50%;
+  height: 160px;
+  width: 160px;
+  object-fit: cover;
+  border: 10px solid;
+  border-color: SteelBlue;
+}
+
+#about {
+  padding-bottom: 500px;
+}
+
+#experence {
+  padding-bottom: 500px;
+}
+
+#education {
+  padding-bottom: 700px;
+}
+
+#skills {
+  padding-bottom: 500px;
+}
+
+#interests {
+  padding-bottom: 500px;
+}
+
+#interests p {
+  color: #868e96;
+}
+
+.contents {
+  height: 100vh;
+}
+
+.name_lastname {
+  font-size: 6rem;
+  color: #3c4044;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.communication {
+  font-family: "Saira Extra Condensed", sans-serif;
+  color: #868e96;
+  font-size: 20px;
+  display: flex;
+  justify-items: center;
+}
+
+.information {
+  word-spacing: 3px;
+  color: #868e96;
+  font-size: 20px;
+}
+
+.icon {
+  font-size: 50px;
+  color: SteelBlue;
+  padding: 10px;
+}
+
+.mobil_developer {
+  font-size: 25px;
+  color: #343a40;
+}
+
+.varmi {
+  font-size: 18px;
+  color: SteelBlue;
+}
+
+.mobil_assistant {
+  font-size: 25px;
+  color: #343a40;
+}
+
+.kodline {
+  font-size: 18px;
+  color: SteelBlue;
+}
+
+.mobil_manager {
+  font-size: 25px;
+  color: #343a40;
+}
+
+.pigasoft {
+  font-size: 18px;
+  color: SteelBlue;
+}
+
+.lycee {
+  font-size: 25px;
+  color: #343a40;
+}
+
+.computer {
+  color: #868e96;
+}
+
+.software {
+  color: #868e96;
+}
+
+.tools {
+  color: #868e96;
+}
+
+.workflow {
+  color: #868e96;
+}
+.ticks {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: flex-start;
+  margin: 0 auto;
+}
+.ticks div {
+  display: flex;
+  align-items: center;
+}
+.ticks i {
+  color: steelblue;
+  margin-right: 8px;
+}
+
+a:link {
+  color: SteelBlue;
+  text-decoration: none;
+}
+
+a:visited {
+  color: SteelBlue;
+  text-decoration: none;
+}
+
+a:hover {
+  color: SteelBlue;
+  text-decoration: none;
+}
+
+a:active {
+  color: SteelBlue;
+  text-decoration: none;
+}
