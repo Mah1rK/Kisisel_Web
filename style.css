@@ -1,7 +1,6 @@
 .container {
   padding-left: 300px;
 }
-
 .menu {
   background-color: rgb(173, 216, 230);
   width: 17rem;
@@ -16,7 +15,6 @@
   gap: 14px;
   text-decoration: none;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin-top: auto;
 }
 img {
   border-radius: 50%;
@@ -29,7 +27,6 @@ img {
 
 #about {
   padding-bottom: 300px;
-
 }
 
 #experence {
