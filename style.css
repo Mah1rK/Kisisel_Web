@@ -1,44 +1,48 @@
+body {
+  margin: 0;
+}
 .container {
-  padding-left: 300px;
+  display: flex;
 }
 .menu {
   background-color: rgb(173, 216, 230);
-  width: 17rem;
-  position: fixed;
+  width: 300px;
   height: 100vh;
-  left: 0;
-  top: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 14px;
+  gap: 20px;
   text-decoration: none;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 img {
   border-radius: 50%;
   height: 160px;
   width: 160px;
   object-fit: cover;
-  border: 10px solid;
+  border: 8px solid;
   border-color: SteelBlue;
 }
 
 #about {
   padding-bottom: 300px;
+  padding-top: 70px;
 }
 
 #experence {
-  padding-bottom: 300px;
+  padding-top: 160px;
+  padding-bottom: 350px;
 }
 
 #education {
-  padding-bottom: 500px;
+  padding-top: 250px;
+  padding-bottom: 520px;
 }
 
 #skills {
   padding-bottom: 300px;
+  padding-top: 100px;
 }
 
 #interests {
@@ -51,6 +55,10 @@ img {
 
 .contents {
   height: 100vh;
+  max-height: 100vh;
+  overflow: auto;
+  width: calc(100% - 300px);
+  padding: 0 20px;
 }
 
 .name_lastname {
@@ -60,7 +68,7 @@ img {
 }
 
 .communication {
-  font-family: "Saira Extra Condensed", sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: #868e96;
   font-size: 20px;
   display: flex;
@@ -71,6 +79,7 @@ img {
   word-spacing: 3px;
   color: #868e96;
   font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .icon {
